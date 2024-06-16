@@ -45,10 +45,10 @@ label{
     position: absolute;
     width: 1em;
     height: 1em;
-    background-image: url(./src/foto/Vector.svg);
+    background-image: url(http://localhost:5173/src/foto/Vector.svg);
     margin-top: 1.5em;
     margin-left: 0.5em;
 }
 .chek__input:checked + .check__box {
-    background-image: url(./src/foto/Layer\ 1.svg);
+    background-image: url(http://localhost:5173/src/foto/Layer%201.svg);
 }
