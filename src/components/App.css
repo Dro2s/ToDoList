@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: linear-gradient(to top, rgb(26, 26, 26) 65%, rgb(13, 13, 13) 0%); 
+    height:100vh;
+
+  }
+.quests{
+  background-color: rgb(30, 111, 159);
+  position: relative;
+  width: 151px;
+  height: 46px;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: aliceblue;
+  display: inline-flex;
+  margin-left: 2vw;
+}
+.quests1{
+  margin-left: 25vw;
+}

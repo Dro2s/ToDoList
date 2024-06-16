@@ -1,0 +1,54 @@
+.qest{
+display: flex;
+margin-top: 2vw;
+margin-left: 25vw;
+box-sizing: border-box;
+border: 1px solid rgb(38, 38, 38);
+border-radius: 8px;
+background: rgb(38, 38, 38);
+width: 49vw;
+height: 4vw;
+}
+.checkbox{
+    border-color: rgb(78, 168, 222);
+    border-radius: 20px;
+}
+.boxText{
+    margin-left: 3vw;
+    color: rgb(128, 128, 128);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+.delete{
+    position: absolute;
+    margin-left: 50em;
+    margin-top: 1.6em;
+    width: 30px;
+    justify-content: flex-end;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+}
+.chek__input{
+    appearance: none;
+    position: absolute;
+}
+.check__box{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background-image: url(./src/foto/Vector.svg);
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+}
+.chek__input:checked + .check__box {
+    background-image: url(./src/foto/Layer\ 1.svg);
+}

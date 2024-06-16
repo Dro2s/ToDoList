@@ -1,0 +1,38 @@
+.task{
+    margin-left: 25vw;
+    margin-top: 3vw;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 13, 13);
+    border-radius: 8px;
+    background: rgb(38, 38, 38);
+    background: rgb(38, 38, 38);
+    width: 603px;
+    height: 54px;
+    flex-direction: row;
+    padding: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    color: white;
+    font-size: 20px;
+}
+.addTask{
+    margin-left: 1vw;
+    position: static;
+    width: 125px;
+    height: 52px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 10px;
+    background-color: rgb(30, 111, 159);
+    color: aliceblue;
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+}
