@@ -9,7 +9,7 @@ function TaskTodo(props){
             <p className = 'boxText'
              style={props.status ? {textDecoration: 'line-through'} : {textDecoration: 'none'}}>{props.value}</p>
             <button className = 'delete'
-             onClick={()=> props.deleteTask(props.id)}><img src='./src/foto/Vectordel.svg'></img></button>
+             onClick={()=> props.deleteTask(props.id)}><img src='http://localhost:5173/src/foto/Vectordel.svg'></img></button>
         </div>
     )
 }
